@@ -29,11 +29,13 @@ export const Contact = (props) => {
     emailjs
       .sendForm("service_b4b0dn9", "template_fw6zuwl", e.target, "2gXbF4ryq3jrGnDPF")
       .then(
-        (result) => {
+        (result) => 
+        {
           console.log(result.text);
           clearState();
         },
-        (error) => {
+        (error) => 
+        {
           console.log(error.text);
         }
       );
