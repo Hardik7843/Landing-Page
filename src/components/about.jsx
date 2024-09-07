@@ -1,5 +1,4 @@
 import React from "react";
-import Styles from './about.css';
 
 export const About = (props) => {
   return (
