@@ -1,5 +1,16 @@
+import { icon } from "@fortawesome/fontawesome-svg-core";
 import React from "react";
 
+const style = {
+  checkicon : {
+    backgroundColor : "#ec6408" , 
+  },
+  underline : {
+    textDecorationColor: '#ec6408'
+  }
+
+  
+}
 export const About = (props) => {
   return (
     <div id="about">
@@ -19,7 +30,7 @@ export const About = (props) => {
                   <ul>
                     {props.data
                       ? props.data.Why.map((d, i) => (
-                          <li key={`${d}-${i}`}>{d}</li>
+                          <li  key={`${d}-${i}`}>{d}</li>
                         ))
                       : "loading"}
                   </ul>

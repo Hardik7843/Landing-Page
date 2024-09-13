@@ -15,14 +15,15 @@ export const Navigation = (props) => {
                 src="/img/mini_logo.png"
                 width="20"
                 height="20"
-                className="d-inline-block align-top"
-              />Flex Trips
+                className="d-inline-block align-center"
+              />
+              <p style={{color : "#ec6408"}}>Flex Trips</p>
             </Navbar.Brand>
           </Container>
         </Navbar>
 
         <div className="navbar-header">
-          <button
+          <button 
             type="button"
             className="navbar-toggle collapsed"
             data-toggle="collapse"
