@@ -1,0 +1,192 @@
+{
+  "Header": {
+    "title": "Welcome to Flex Trips",
+    "paragraph": "Introducing. Flex Trips Indias first. All in one solution. App. hello i am the foundrr of flex trips in market we have noticed many of things while booking. While going trips with family friends and more. And also noticed price hike and no hotel rooms  when you plan suddenly. Flex trips will make this things easy with many features  lets start with introduction.  "
+  },
+  "About": {
+    "paragraph": "Introducing. Flex Trips Indias first. All in one solution. App. hello I am the founder of flex trips in market we have noticed many of things while booking. While going trips with family friends and more. And also noticed price hike and no hotel rooms  when you plan suddenly. Flex trips will make this things easy with many features  lets start with introduction.  ",
+    "Why": [
+      "Hourly Base Booking",
+      "Scroll & Roll",
+      "Book your trips"
+    ],
+    "Why2": [
+      "Order anything",
+      "Field event trips",
+      "Earn from hotels"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/01-large.jpg",
+      "smallImage": "img/portfolio/01-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/03-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/04-large.jpg",
+      "smallImage": "img/portfolio/04-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/05-large.jpg",
+      "smallImage": "img/portfolio/05-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/06-large.jpg",
+      "smallImage": "img/portfolio/06-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/07-large.jpg",
+      "smallImage": "img/portfolio/07-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/08-large.jpg",
+      "smallImage": "img/portfolio/08-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/09-large.jpg",
+      "smallImage": "img/portfolio/09-small.jpg"
+    }
+  ],
+  "Services": [
+    {
+      "icon": "fa fa-clock-o",
+      "name": "Hourly Booking",
+      "text": "IN HOURLY BOOKING CUSTOMER WILL PAY ACCORDING TO HOURLS STARTING FROM RS 65 PER PERSON FOR PER HOUR MINIMUM HOURLS WILL BE SETTED BY FLEX TRIP INTRODUCING SLIDER "
+    },
+    {
+      "icon": "fa fa-map-marker",
+      "name": "Location  & Allotment",
+      "text": "IN LOCATION & ALLOTMENT APP WILL FIND AUTOMATICALLY BEST HOTELS NEAR BY TO CUSTOMER  AND IF CUSTOMER WANT TO BOOK CUSTOMER JUST HAVE TO CLICK ON ALLOT ME  AND THE ROOM WILL BE BOOKED "
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "name": "Hotels & Review",
+      "text": "CUSTOMER  WILL REVIEW THEIR HOTEL BEFORE BOOKING BY FELX 360  IT WILLK HELP OUT CUSTOMER TO SHORT TOUR HOTEL AND ROOMS  THIS FEATURES WILL NEVER COMPRAMISE WITH CUSTOMER COMFORTABLE  AND LUXURY"
+    },
+    {
+      "icon": "fa fa-clock-o",
+      "name": "ORDER THE BEST",
+      "text": "IN ORDER THE BEST SECTION : WE HAVE NOTICED THAT EVERY CUSTOMER AND WE ALSO LIKE TO TRY BEST FOOD AND BEST THINGS TO BUY WHWR WE GO FOR PICNIC  OR TOUR IN THIS SECTION CUSTOMER WILL GET BEST THINGS LIKE FOOD  GOODS  ETC BY LOCATION IT WILL SHOW THE THINGS ACCORDING TO LOCATION"
+    },
+    {
+      "icon": "fa fa-map-marker",
+      "name": "BOOK ANYTHING FLEX TOUR ",
+      "text": "CUSTOMER WILL BOOK ANYTHING LIKE FLIGHT BUS AND TRAIN EVEN THEY CAN BOOK RENTED BUS AND CABS FOR FAMILY TOURS WELCOME TO FLEX TOUR "
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "name": "EARN WITH BOOKINGS",
+      "text": "EARN WITH BOOKING : ON EVERY BOOKING BY CUSTOMER THEY WILL GET CASHBACK MONEY AND EVERY 100 BOOKING CUSTOMER WILL GET 2 FREE BOOKING  ON HOTELS EVENTS AND TRIPS  CASH BACK MONEY CAN BE CLAIM ON FOOD STAY AND HOTELS"
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/04.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/06.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/01.jpg",
+      "name": "John Doe",
+      "job": "Director"
+    },
+    {
+      "img": "img/team/02.jpg",
+      "name": "Mike Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/03.jpg",
+      "name": "Jane Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Karen Doe",
+      "job": "Project Manager"
+    }
+  ],
+  "Contact": {
+    "address": "4321 California St, San Francisco, CA 12345 ",
+    "phone": "+1 123 456 1234",
+    "email": "info@company.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-clock-o",
+      "title": "Hourly Base Booking",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-mobile",
+      "title": "Scroll & Roll",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-plane",
+      "title": "Book your trips",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-cart-plus",
+      "title": "Order anything",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-ticket",
+      "title": "field event trips",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-inr",
+      "title": "earn from hotels",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    }
+  ]
+}
