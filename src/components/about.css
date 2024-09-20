@@ -1,0 +1,10 @@
+img {
+    background-color: transparent;
+}
+#about {
+    background-color: white;
+}
+
+#about li:before { /* Assuming the checkmark character is ✔ */
+    color: #ec6408;
+}
