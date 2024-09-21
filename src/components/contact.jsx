@@ -54,7 +54,7 @@ export const Contact = (props) => {
                    plese find my email address below : ${email}`
     }
     
-    axios.post('http://localhost:5000/send-email', options)
+    axios.post('https://mailapi-production-be96.up.railway.app/send-email', options)
       .then(function (response) {
         toast.success("We received your message!");
         console.log(response);
