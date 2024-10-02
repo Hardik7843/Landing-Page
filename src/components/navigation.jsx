@@ -3,9 +3,11 @@ import './navigation.css';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 export const Navigation = (props) => {
+
+
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
-      <div className="container"> 
+      <div className="navigation-nav container"> 
         
         <Navbar className="bg-body-tertiary">
           <Container>
@@ -13,8 +15,8 @@ export const Navigation = (props) => {
               <img
                 alt=""
                 src="/img/mini_logo.png"
-                width="20"
-                height="20"
+                // width="10"
+                // height="5"
                 className="d-inline-block align-center"
               />
               <p style={{color : "#ec6408"}}>Flex Trips</p>

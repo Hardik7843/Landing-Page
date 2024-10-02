@@ -96,6 +96,8 @@ hr {
 }
 
 #menu a.navbar-brand {
+  margin-top: 71px;
+  margin-bottom: -58px;
   font-family: "Raleway", sans-serif;
   font-size: 24px;
   font-weight: 700;
