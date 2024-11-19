@@ -25,45 +25,63 @@ const style = {
     borderRadius : "12px" 
   }
 }
-const initialState = {
-  name: "",
-  email: "",
-  message: "",
-};
+
 export const Contact = (props) => {
-  const [{ name, email, message }, setState] = useState(initialState);
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: ''
+  });
 
   const handleChange = (e) => {
-    const { name, value } = e.target;
-    setState((prevState) => ({ ...prevState, [name]: value }));
+    setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const clearState = () => setState({ ...initialState });
   
   
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log(name, email, message);
-
+    console.log('Form submitted:', formData);
+    const data = new FormData();
+    
+    if(formData.name && formData.email && formData.message )
+    {
+      data.append('name', formData.name);
+      data.append('email', formData.email);
+      data.append('message', formData.message);
   
+      // const Sheet_Url = String(import.meta.env.SHEET_URL)
+      const Sheet_Url="https://script.google.com/macros/s/AKfycbzdJyxzGGLHrhMEXpB5YAmAo2u2VhsSzH4CAeiqZl6dEN-ns_cwo1-6RFVNQscseoc7_A/exec"
+      try {
+        await fetch(Sheet_Url, {
+          method: 'POST',
+          body: data,
+          muteHttpExceptions: true,
+        }).then((response) => {
+          if(response.status == 200)
+          {
+            console.log("response object", response)
+            toast.success("We reciever message ✅")
+          }
+        }).catch((error) => {
+          console.log("Error in Success from contact page",error)
+          toast.error("We did not recieved message ❎");
+        }) 
   
-    const options = {
-      "subject" : `message from ${name}`,
-      "recipient" : "parkezy17@gmail.com",
-      "message" : `Hello My name is ${name} and I am interested about flextrips
-                   plese find my email address below : ${email}`
+        setFormData({
+          fullNameame: '',
+          email: '',
+          phoneNumber: '',
+        });
+      } 
+      catch(err) {
+        toast.error("We did not recieved message ❎");
+      }
     }
-    
-    axios.post('https://mailapi-production-be96.up.railway.app/send-email', options)
-      .then(function (response) {
-        toast.success("We received your message!");
-        console.log(response);
-      })
-      .catch(function (error) {
-        toast.error("We did not recieved messaage!");
-        console.log(error);
-      });
-    
+    else {
+      toast.error("Please Fill all fields correctly ❗");
+    }
+  
   };
 
   
@@ -82,7 +100,7 @@ export const Contact = (props) => {
                     get back to you as soon as possible.
                   </p>
                 </div>
-                <form name="sentMessage" validate onSubmit={handleSubmit}>
+                <form name="sentMessage" validate onSubmit={(e) => handleSubmit(e)}>
                   <div className="row">
                     <div className="col-md-6">
                       <div className="form-group">
